@@ -1,0 +1,252 @@
+head:
+  title: "Dossier de trabajos de Lucas"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hola, soy Lucas Carvajal"
+  subtitle: "Estudiante de Ingeniería de Sistemas"
+  description: "Actualmente, estoy explorando el mundo de la ciencia de datos, con un enfoque en el diseño de algoritmos y la implementación de soluciones de software eficientes."
+  image:
+    x: "img/h.gif"
+    _2x: "img/h.gif"
+  imageMobile:
+    x: "img/h.gif"
+    _2x: "img/h.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contacta a Lucas"
+    URL: "mailto:lucarcon0611@gmail.com"
+
+  socialLinks:
+#    - icon: "linkedin"
+#      URL: "https://www.linkedin.com"
+
+    - icon: "github"
+      URL: "https://github.com/LucasCarvajalC"
+
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/lucascc611/"
+      
+    - icon: "youtube"
+      URL: "https://www.youtube.com/@lucasjosecarvajalcontreras2207"
+
+
+# about
+about:
+  enable: true
+  title: "¿Quién soy?"
+  content: 
+    <p class="lead">
+    Soy un apasionado por la programación y el análisis de datos, <Strong>áreas que me han llevado a 
+    desarrollar un gran interés por las ciencias de datos y todo lo que implican en 
+    términos de innovación y resolución de problemas</Strong>. Me motiva el aprendizaje constante
+    y el deseo de superarme y mejorar en cada aspecto, tanto personal como profesional. 
+    </p>
+    
+    <p class="lead">
+    Además de mi interés técnico, disfruto pasar tiempo con mi familia, así como conocer
+    nuevos lugares, tradiciones y culturas, experiencias que me permiten ampliar mi visión
+    del mundo.
+    </p>
+    
+    <p class="lead">
+    Entre mis principales habilidades destaco <Strong>la responsabilidad, el liderazgo y la
+    comunicación</Strong>, cualidades que me permiten integrarme y aportar en entornos
+    colaborativos. Me gusta el trabajo en equipo, porque creo que los mejores 
+    resultados se alcanzan cuando se unen diferentes perspectivas y talentos.
+    </p>
+    
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Acerca de mí"
+    URL: "https://drive.google.com/file/d/19KiHe6c_sgir0kTixE_8e2N086zxtlva/view?usp=sharing"
+  image:
+    x: "img/Foto2.jpg"
+    _2x: "img/Foto2.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experiencia"
+  description: "Cuento con más de dos años de experiencia en programación,
+  fortaleciendo mis conocimientos en distintos lenguajes y entornos de desarrollo.
+  Además, tengo más de un año trabajando en el prototipado de aplicaciones móviles,
+  participando en la creación de interfaces funcionales y orientadas a la experiencia 
+  del usuario."
+  
+#  button:
+#    icon: "icon-linkedin-fill"
+#    btnText: "Linkedin"
+#    URL: "https://www.linkedin.com/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Descarga mi CV"
+    URL: "https://drive.google.com/file/d/19KiHe6c_sgir0kTixE_8e2N086zxtlva/view?usp=sharing"
+
+#items:
+#  - title: "Director of Product Engineering & Market Development"
+#      company: "Bonney Forge"
+#      duration: "Jan 2017 - Aug 2018"
+
+#    - title: "Manager of Sales Engineering"
+#      company: "Bonney Forge"
+#      duration: "Mar 2014 - Jan 2017"
+
+#    - title: "Manager of Product Engineering"
+#      company: "Bonney Forge"
+#      duration: "Nov 2011 - Mar 2014"
+
+# education
+education:
+  enable: true
+  title: "Educación"
+  items:
+    - university: "Universidad Del Magdalena"
+      year: "2023-presente"
+      degree: "Ingeniería de sistemas"
+
+    - university: "I.E.D Santa Rosa de Lima"
+      year: "2012-2023"
+      degree: "Bachiller con énfasis agroambiental"
+      
+#    - university: "Penn State University"
+#      year: "2002-2006"
+#      degree: "Bachelor of Mechanical Engineering"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Aplicación Swap and Go"
+      description: "Este prototipo lo estoy realizando con otro ingeniero y corresponde a una aplicación diseñada 
+      especialmente para estudiantes, cuyo objetivo es fortalecer la comunicación,
+      el trabajo en equipo y la interacción entre las comunidades universitarias. 
+      La plataforma se basa en un sistema de intercambio (swap) que permite a los 
+      estudiantes compartir útiles, monitorías, apuntes y otros recursos de manera
+      colaborativa, sin necesidad de utilizar dinero. De esta forma, se fomenta la 
+      solidaridad, el apoyo mutuo y el aprovechamiento colectivo de los recursos disponibles."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Mirar prototipo"
+        URL: "https://www.figma.com/proto/kB7hOzhz1G6R5kVCiI2kjo/S-G?node-id=151-238&t=WbFl4CnnxCauDRBJ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3061%3A1051"
+      image:
+        x: "img/SWP1.png"
+        _2x: "img/SWP1.png"
+      is_even: true
+
+#    - title: "Product Price Recommendation"
+#      description: "This application helps Marketing & R&D Teams determine product gaps and price new products to fill the gaps using machine learning. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+#      button:
+#        icon: "icon-arrow-right"
+#        btnText: "Launch Application"
+#        URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
+#      image:
+#        x: "img/works/app_cannondale_price_prediction.jpg"
+#        _2x: "img/works/app_cannondale_price_prediction.jpg"
+#      is_even: false
+
+    
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonios"
+  items:
+  
+    - name: "Juan Farelo"
+      position: "Ingeniero de sistemas"
+      content: "Una gran persona con un gran potencial para el prototipado."
+      image:
+        x: "img/SNOOPY.jpg"
+        _2x: "img/SNOOPY.jpg"
+        
+    - name: "Samuel Torres"
+      position: "Ingeniero de sistemas"
+      content: "Lucas es una persona muy comprometida con sus trabajos y responsabilidades, siempre pendiente de todo."
+      image:
+        x: "img/Samuel.png"
+        _2x: "img/Samuel.png"
+
+    
+
+#    - name: "Mohana Krishna Chittoor"
+#      position: "Lead Data Scientist, Money View"
+#      content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
+#      image:
+#        x: "img/testimonials/mohana.jpg"
+#        _2x: "img/testimonials/mohana.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contacta a Lucas"
+    
+  image:
+    x: "img/Foto1.jpg"
+    _2x: "img/Foto1.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Enviar mensaje"
+    btnAction: 'mailto:lucarcon0611@gmail.com'
+    
+  phone:
+    title: "Número telefónico"
+    number: "+57 300-532-0156"
+  email:
+    title: "Email"
+    email: '<a href="mailto:lucarcon0611@gmail.com">lucarcon0611@gmail.com</a>'
+  address:
+    title: "Dirección"
+    address: "Santa Marta"
+  time:
+    title: "Horario"
+    time: "8:00AM-8:00PM"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Suscripción al boletín"
+  success_message: "Suscripción realizada con éxito"
+  error_message: "Error al suscribirse."
+  note: "Nunca compartiremos su correo electrónico con nadie más."
